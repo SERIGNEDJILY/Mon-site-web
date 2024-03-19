@@ -1,0 +1,90 @@
+
+body{
+    background-image: url(nuage.jpg);
+    background-size: cover;
+}
+
+
+
+.container{
+    max-width: 1000%;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    background-color:rgb(35, 158, 211);
+    
+}
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+
+
+
+
+.container h2 {
+margin-bottom: 10px;
+
+}
+
+.container p {
+    line-height: 1,9;
+}
+
+
+#p{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+
+}
+*{
+    box-sizing: border-box; 
+ }
+ .column{
+
+     float: left;
+     width: 33.33%;
+     padding: 5px;
+    
+ }
+ .row::after { 
+       width: 400px;
+    height: 400px;
+     content:"" ;
+  
+ 
+  
+ }
+ h2{
+    text-align: center;
+    color:#000;
+ }
+ img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+  
+ }
+ .img.p-7{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+    text-align: center;
+  
+ }
